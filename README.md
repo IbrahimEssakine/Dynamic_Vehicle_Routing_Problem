@@ -70,7 +70,7 @@ Contrasts single-solution metaheuristics, focusing on refining a single solution
 This chapter presents a solution developed using VBA (Visual Basic for Applications) in Excel, integrating the OpenSolver extension. The combination of VBA and OpenSolver provides users with a customizable and powerful environment to address optimization problems within the familiar Excel interface.
 
 
-# 2. Tutorial
+# Tutorial
 # Step 1: Initiate Problem
 
 Download & Install OpenSolver extension in Excel. (https://opensolver.org/installing-opensolver/)
