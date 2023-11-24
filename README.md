@@ -1,5 +1,4 @@
-![image](https://github.com/IbrahimEssakine/Dynamic_Vehicle_Routing_Problem/assets/103626975/69f71685-9dc2-419e-9ad6-0164c92eb603)
-
+# Dynamic Vehicle Routing Problem Solver using VBA and OpenSolver
 # Introduction:
 The DVRP is a significant challenge in transportation logistics, requiring real-time adaptation to changing conditions. This project focuses on developing solutions for DVRP using the Coin-or CBC solver and an enhanced GA. It emphasizes the importance of effective solutions in optimizing transportation systems.
 
@@ -47,11 +46,14 @@ y_ikj={1 if vehicle k transports from customer i to customer j,0 otherwise}     
 ![image](https://github.com/IbrahimEssakine/Dynamic_Vehicle_Routing_Problem/assets/103626975/53ff741b-ed1a-4c28-a04c-c11355a34a7a)
 
 • Equation (4), (5), and (6) guarantee that each customer is visited only once by a single vehicle.
-• Equation (7) ensures that the total demand of each customer does not exceed the capacity of a vehicle on each distribution line.
-• Equation (8) ensures that the distribution vehicle starts and finishes at a single depot.
-• Equation (9) ensures that the visited points remain visited after a new customer is added to n.
-• Equation (10) guarantees that the trajectory travelled by vehicle k according to the last visited point fj is visited.
 
+• Equation (7) ensures that the total demand of each customer does not exceed the capacity of a vehicle on each distribution line.
+
+• Equation (8) ensures that the distribution vehicle starts and finishes at a single depot.
+
+• Equation (9) ensures that the visited points remain visited after a new customer is added to n.
+
+• Equation (10) guarantees that the trajectory travelled by vehicle k according to the last visited point fj is visited.
 
 # Chapter I: Theoretical Aspect - Exact Solution Methods:
 The project employs the branch and cut algorithm within the Coin-or CBC solver for exact solutions. This approach efficiently explores the search space to find optimal solutions.
